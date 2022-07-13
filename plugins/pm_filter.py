@@ -952,7 +952,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-            btn.append([InlineKeyboardButton(text="Close", url='t.me/dubbedweb) 
+            btn.append([InlineKeyboardButton(text="Close", url='t.me/dubbedweb)]) 
         k = await msg.reply("**💔 ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ɪɴ ᴛʜᴀᴛ ɴᴀᴍᴇ ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ✔ 🙂\n➤ ɴᴇᴇᴅ ʜᴇʟᴘ** 💌: <a href=https://t.me/GlitchAssistantBot>**[ᴡʀɪᴛᴇ ʜᴇʀᴇ]**</a>")
                                   reply_markup=InlineKeyboardMarkup(btn))
 
