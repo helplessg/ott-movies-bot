@@ -818,13 +818,13 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
-      btn.insert(0,
+    btn.insert(0,
         [
-          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
         ]
-       )     
+    )    
       
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
