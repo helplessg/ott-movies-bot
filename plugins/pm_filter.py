@@ -820,9 +820,10 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('Hᴏᴡ Tᴏ❓', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
+            InlineKeyboardButton('📽Mᴏᴠɪᴇ', url='https://t.me/https://t.me/+82f6dWJos6AyZDE9'),
+            InlineKeyboardButton('📺Sᴇʀɪᴇs', url='https://t.me/https://t.me/+Kw3uWsmIH1c0MjI9'),
         ]
     )    
       
