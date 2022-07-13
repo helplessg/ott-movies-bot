@@ -822,7 +822,7 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton('Hᴏᴡ❓', url='https://t.me/DMoviesLand'),
             InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
-            InlineKeyboardButton('📽M'H', url='https://t.me/+82f6dWJos6AyZDE9'),
+            InlineKeyboardButton('📽Mᴏᴠ', url='https://t.me/+82f6dWJos6AyZDE9'),
             InlineKeyboardButton('📺Sᴇʀɪ', url='https://t.me/+Kw3uWsmIH1c0MjI9'),
         ]
     )    
