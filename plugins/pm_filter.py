@@ -820,10 +820,10 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('Hᴏᴡ Tᴏ❓', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('Hᴏᴡ❓', url='https://t.me/DMoviesLand'),
             InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
-            InlineKeyboardButton('📽Mᴏᴠɪᴇ', url='https://t.me/https://t.me/+82f6dWJos6AyZDE9'),
-            InlineKeyboardButton('📺Sᴇʀɪᴇs', url='https://t.me/https://t.me/+Kw3uWsmIH1c0MjI9'),
+            InlineKeyboardButton('📽M'H', url='https://t.me/+82f6dWJos6AyZDE9'),
+            InlineKeyboardButton('📺Sᴇʀɪ', url='https://t.me/+Kw3uWsmIH1c0MjI9'),
         ]
     )    
       
@@ -875,7 +875,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
 
-        cap = f"<b><i>🎥 {search}\nʀᴇǫ ʙʏ ➤ : {message.from_user.mention}\n📢 ɴᴏᴛᴇ: ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ\nᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 02 ʜᴏᴜʀ's ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs ⏰</i></b>"
+        cap = f"<b><i>📽 ➤ {search}\nʀᴇǫ ʙʏ ➤ : {message.from_user.mention}\n📢 ɴᴏᴛᴇ: ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ\nᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 02 ʜᴏᴜʀ's ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs ⏰</i></b>"
 
     if imdb and imdb.get('poster'):
 
