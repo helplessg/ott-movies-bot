@@ -820,7 +820,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('Hᴏᴡ❓', url='https://t.me/DMoviesLand'),
+            InlineKeyboardButton('❓Hᴏᴡ', url='https://telegra.ph/H%E1%B4%8F%E1%B4%A1-T%E1%B4%8F-07-13'),
             InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
             InlineKeyboardButton('📽Mᴏᴠ', url='https://t.me/+82f6dWJos6AyZDE9'),
             InlineKeyboardButton('📺Sᴇʀɪ', url='https://t.me/+Kw3uWsmIH1c0MjI9'),
