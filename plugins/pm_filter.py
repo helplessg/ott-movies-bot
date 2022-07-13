@@ -953,6 +953,10 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
         k = await msg.reply("**💔 ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ɪɴ ᴛʜᴀᴛ ɴᴀᴍᴇ ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ✔ 🙂\n➤ ɴᴇᴇᴅ ʜᴇʟᴘ** 💌: <a href=https://t.me/GlitchAssistantBot>**[ᴡʀɪᴛᴇ ʜᴇʀᴇ]**</a>")
+             reply_markup=InlineKeyboardMarkup([
+              [ InlineKeyboardButton('Contact Admin', url='t.me/AboutAadhi')
+           ]) 
+         ) 
         await asyncio.sleep(20)
         await k.delete()
         return
